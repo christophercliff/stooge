@@ -2,7 +2,7 @@
   "name": "stooge",
   "version": "0.0.0",
   "author": "Christopher Cliff <ctcliff@gmail.com>",
-  "description": "",
+  "description": "A stupid node.js module for creating a REST web service from Dino models",
   "keywords": [],
   "license": "MIT",
   "scripts": {
