@@ -1,0 +1,27 @@
+{
+  "name": "stooge",
+  "version": "0.0.0",
+  "author": "Christopher Cliff <ctcliff@gmail.com>",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "dino": "0.3.5",
+    "restify": "2.5.1"
+  },
+  "devDependencies": {
+    "mocha": "1.7.4",
+    "should": "1.2.1",
+    "sinon": "1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/christophercliff/stooge"
+  },
+  "bugs": {
+    "url": "https://github.com/christophercliff/stooge/issues"
+  }
+}
