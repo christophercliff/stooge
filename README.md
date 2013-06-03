@@ -1,6 +1,6 @@
 # Stooge
 
-A stupid node.js module for creating a REST web service from [Dino](https://github.com/christophercliff/dino) models.
+A stupid node.js module for creating a self-documenting REST web service from [Dino](https://github.com/christophercliff/dino) models.
 
 ## Installation
 
@@ -21,7 +21,7 @@ require('stooge')()
     .models({
         'users': require('./models/user'),
         'posts': require('./models/post'),
-        'posts': require('./models/reply')
+        'replies': require('./models/reply')
     })
     .listen(8080);
 ```
